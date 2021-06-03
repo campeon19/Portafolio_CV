@@ -1,0 +1,53 @@
+.fondo .container ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo .container .img-fluid.size-icon{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fondo .container .tam-icono{
+    font-size: 40px;
+}
+
+
+.fondo .container li{
+    float:left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fondo .container li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.fondo .container li a:hover{
+    color: gray;
+}
+
+.fondo.espaciado{
+    margin-top: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.fondo .container .text-color{
+    color: rgb(102, 102, 102);
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}

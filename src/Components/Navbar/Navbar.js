@@ -22,9 +22,6 @@ function Navbar(){
                     <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="#">Works</a>
                   </li>
                   <li class="nav-item">
