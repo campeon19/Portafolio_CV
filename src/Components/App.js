@@ -19,11 +19,14 @@ function App(){
                     <Route path='/Works'>
                         <Works/>
                     </Route>
+                    <Route path='/Contact'>
+                        <Contact/>
+                    </Route>
                     <Route path='/'>
                         <Home/>
-                        <Footer/>
                     </Route>
                 </Switch>
+                <Footer/>
             </BrowserRouter>
         </div>
     )

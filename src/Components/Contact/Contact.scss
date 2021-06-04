@@ -1,0 +1,33 @@
+.container.from-design{
+    max-width: 700px;
+}
+
+.container.from-design label{
+    padding-top: 30px;
+}
+
+.container.from-design .form-control.size-input{
+    height: 200px;
+}
+
+.container.from-design .centrar-btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.container.from-design .boton-submit{
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container.from-design .boton-submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.container.from-design textarea {
+    resize: none;
+}
+
+
