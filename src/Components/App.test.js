@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable quotes */
@@ -7,7 +8,11 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable linebreak-style */
 
-const presets = ["@babel/preset-env", "@babel/preset-react"];
-const plugins = ["@babel/plugin-proposal-class-properties"];
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './App';
 
-module.exports = { presets, plugins };
+it("renders without crashing", () => {
+  const div = document.createElement("div");
+  ReactDom.render(<App />, div);
+});
