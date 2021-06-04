@@ -176,9 +176,26 @@
         
     }
     .presentation{
-        margin-bottom: 1900px;
+        margin-bottom: 2000px;
     }
 
 
 }
 
+@media (max-width:366px){
+    .container .row .col-lg-4{
+        height: 680px;
+    }
+    .presentation{
+        margin-bottom: 2100px;
+    }
+}
+
+@media (max-width:317px){
+    .container .row .col-lg-4{
+        height: 780px;
+    }
+    .presentation{
+        margin-bottom: 2500px;
+    }
+}
