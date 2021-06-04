@@ -26,7 +26,7 @@ function Navbar() {
           <img src={Icono} className="img-fluid size-img" alt="" />
         </Link>
         <button
-          className="navbar-toggler navbar-toggler-right collapsed"
+          className="navbar-toggler navbar-toggler-right"
           type="button"
           data-toggle="collapse"
           data-target="#navbar"
