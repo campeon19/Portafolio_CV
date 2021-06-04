@@ -1,7 +1,8 @@
 import React, { useSate } from 'react';
 import './Navbar.scss';
-import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap';
 import Icono from '../../Assets/Icono3.png';
 import { Link } from 'react-router-dom';
 
@@ -13,11 +14,11 @@ function Navbar(){
               <Link className="navbar-brand" to='/'>
                   <img src={Icono} className='img-fluid size-img'/>
               </Link>
-              <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
-                <i className="fas fa-bars"></i>
+                
               </button>
-              <div className="collapse navbar-collapse" id="navbarResponsive">
+              <div className="collapse navbar-collapse" id="navbar">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
                     <Link className="nav-link" to='/'>Home</Link>

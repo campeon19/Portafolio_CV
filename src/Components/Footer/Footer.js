@@ -17,16 +17,16 @@ function Footer(){
                         <a href='#'><FontAwesomeIcon className='tam-icono' icon={faFacebook}/></a>
                     </li>
                     <li>
-                        <a href='#'><FontAwesomeIcon className='tam-icono' icon={faInstagram}/></a>
+                        <a href='https://www.instagram.com/christian_d54/'><FontAwesomeIcon className='tam-icono' icon={faInstagram}/></a>
                     </li>
                     <li>
                         <a href='#'><FontAwesomeIcon className='tam-icono' icon={faTwitter}/></a>
                     </li>
                     <li>
-                        <a href='#'><FontAwesomeIcon className='tam-icono' icon={faLinkedin}/></a>
+                        <a href='https://www.linkedin.com/in/christian-daniel-p%C3%A9rez-de-le%C3%B3n-1445a4172?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhaKX4xJoRt%2BAmfTG7Xa4qA%3D%3D'><FontAwesomeIcon className='tam-icono' icon={faLinkedin}/></a>
                     </li>
                     <li>
-                        <a href='#'><FontAwesomeIcon className='tam-icono' icon={faGithub}/></a>
+                        <a href='https://github.com/campeon19'><FontAwesomeIcon className='tam-icono' icon={faGithub}/></a>
                     </li>
                 </ul>
 

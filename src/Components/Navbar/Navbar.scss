@@ -1,3 +1,5 @@
+
+
 #mainNav {
     position: absolute;
     border-bottom: 1px solid #e9ecef;
@@ -55,7 +57,7 @@
       backface-visibility: hidden;
 }
 #mainNav.is-fixed {
-      /* when the user scrolls down, we hide the header right above the viewport */
+
       position: fixed;
       top: -67px;
       transition: transform 0.2s;
@@ -75,7 +77,11 @@
       color: #0085A1;
 }
 #mainNav.is-visible {
-      /* if the user changes the scrolling direction, we show the header */
+
       transform: translate3d(0, 100%, 0);
 }
+}
+
+.collapse {
+      display: none !important;
 }
